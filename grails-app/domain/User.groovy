@@ -1,4 +1,3 @@
-
 /**
  * Created by IntelliJ IDEA.
  * User: gzeg
@@ -16,5 +15,17 @@ class User {
 
     Family family;
     UserType userType;
+
+    static constraints = {   //nullable jest false domyslnie
+        login(unique: true, size: 4..20)
+        password(size: 6..20)
+        name(size: 3..20)
+        surname(size: 3..20)
+        email(email: true)
+        family(nullable: false)
+        userType(nullable: false)
+    }
+
+    //TODO - konstruktor, ew metody
 
 }
