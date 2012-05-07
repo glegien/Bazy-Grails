@@ -1,6 +1,7 @@
+package bazy.grails
 /**
  * Created by IntelliJ IDEA.
- * User: gzeg
+ * bazy.grails.User: gzeg
  * Date: 15.04.12
  * Time: 11:35
  * To change this template use File | Settings | File Templates.
@@ -17,7 +18,7 @@ abstract class UserType {
         return true;
        }
 
-       a w klasie User:
+       a w klasie bazy.grails.User:
       public boolean ifCanDoSth() {
         return false;
        }

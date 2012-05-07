@@ -1,6 +1,7 @@
+package bazy.grails
 /**
  * Created by IntelliJ IDEA.
- * User: gzeg
+ * bazy.grails.User: gzeg
  * Date: 14.04.12
  * Time: 15:48
  * To change this template use File | Settings | File Templates.
@@ -22,8 +23,8 @@ class User {
         name(size: 3..20)
         surname(size: 3..20)
         email(email: true)
-        family(nullable: false)
-        userType(nullable: false)
+        family(nullable: true) //poki co, trzeba to przemyslec
+        userType(nullable: true) //jw
     }
 
     //TODO - konstruktor, ew metody
