@@ -38,7 +38,7 @@
                         <label for='passwordRepeat'>Retype password:</label>
                     </td>
                     <td valign='top' style='text-align:left;' width='80%'>
-                        <input id="passwordRepeat" type='password' name='password'
+                        <input id="passwordRepeat" type='password' name='passwordRepeat'
                                value='${retypePassword}'/>
                     </td>
                 </tr>
@@ -47,7 +47,7 @@
                         <label for='name'>Name:</label>
                     </td>
                     <td valign='top' style='text-align:left;' width='80%'>
-                        <input id="name" type='password' name='password'
+                        <input id="name" type='text' name='namely'
                                value='${user?.name}'/>
                     </td>
                 </tr>
@@ -56,7 +56,7 @@
                         <label for='surname'>Surname:</label>
                     </td>
                     <td valign='top' style='text-align:left;' width='80%'>
-                        <input id="surname" type='password' name='password'
+                        <input id="surname" type='text' name='surname'
                                value='${user?.surname}'/>
                     </td>
                 </tr>
@@ -65,7 +65,7 @@
                         <label for='email'>Email:</label>
                     </td>
                     <td valign='top' style='text-align:left;' width='80%'>
-                        <input id="email" type='password' name='password'
+                        <input id="email" type='text' name='email'
                                value='${user?.email}'/>
                     </td>
                 </tr>

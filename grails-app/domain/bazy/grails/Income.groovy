@@ -14,7 +14,7 @@ class Income {
     static constraints = {
         title(blank: false, size: 1..256)
         description(blank: true)
-        price(nullbale: false, scale: 2)
+        price(nullable: false, scale: 2)
     }
 }
 

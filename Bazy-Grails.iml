@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="Grails" name="Grails" removed="false">
+        <fileset id="fileset1" name="Xml Application Context" removed="false">
           <file>file://$MODULE_DIR$/web-app/WEB-INF/applicationContext.xml</file>
         </fileset>
       </configuration>
@@ -17,6 +17,11 @@
         <sourceRoots />
       </configuration>
     </facet>
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -24,6 +29,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/utils" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/groovy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/grails-app/i18n" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/controllers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/domain" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/grails-app/services" isTestSource="false" />

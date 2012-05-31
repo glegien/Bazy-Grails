@@ -16,6 +16,8 @@ class BootStrap {
         }
         else
             print "Blad tworzenia danych pocztkowych - niepoprawny budżet"
+        new bazy.grails.Period(fromDate: new Date(2013, 1, 10), periodType: bazy.grails.PeriodType.monthly, toDate: new Date(2013, 2, 1)).save()
+
     }
 
     def destroy = {
