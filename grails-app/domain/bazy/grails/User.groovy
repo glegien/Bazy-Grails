@@ -18,9 +18,9 @@ class User {
     UserType userType;
 
     static constraints = {   //nullable jest false domyslnie
-        login(unique: true, size: 4..20)
-        password(size: 6..20)
-        name(size: 3..20)
+        login(unique: true, size: 4..20, nullable: false)
+        password(size: 6..20, nullable: false)
+        name(size: 3..20, nullable: false)
         surname(size: 3..20)
         email(email: true)
         family(nullable: true) //poki co, trzeba to przemyslec

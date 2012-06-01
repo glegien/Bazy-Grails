@@ -7,6 +7,7 @@ class BootStrap {
     def init = { servletContext ->
         //TODO - usunac w wersji produkcyjnej
         def family = new Family(familyId: 'rodzinaAdama', familyKey: '123').save()
+        def family2 = new Family(familyId: 'rodzinaInna', familyKey: '1234').save()
         def adam = new User(login: 'adam1', password: '123456', name: 'Adam', surname: 'Adamowski', email: 'adam@adam.pl',
                 family: family).save()
         def budget = new Budget(family: family, fromDate: new Date(), toDate: new Date(2045, 12, 12), value: 123.45,

@@ -12,10 +12,16 @@
 
 <body>
 <div class="body">
-    <g:form method="post">
+    <g:form method="post" action="createUser">
         <div class="dialog">
             <p>Enter your personal details below:</p>
             <table class="userForm">
+                <g:hasErrors>
+                    <div class="errors">
+                        <g:renderErrors bean="${user}" as="list"/>
+                    </div>
+                </g:hasErrors>
+
                 <tr class='prop'>
                     <td valign='top' style='text-align:left;' width='20%'>
                         <label for='login'>Login:</label>
